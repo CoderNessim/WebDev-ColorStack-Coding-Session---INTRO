@@ -65,6 +65,6 @@ copyButton.addEventListener('click', () => {
 retryButton.addEventListener('click', () => {
   passwordDisplay.textContent = '';
   checkboxes.forEach(checkbox => (checkbox.checked = false));
-  lengthRange.value = 12;
-  lengthValue.textContent = 12;
+  lengthRange.value = 4;
+  lengthValue.textContent = 4;
 });
