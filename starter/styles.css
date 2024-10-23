@@ -23,6 +23,18 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.password-length {
+  padding: 7px;
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  height: 30px;
+  align-items: center;
+  font-weight: bold;
+}
+
+#lengthRange {
+  width: 100%;
+}
 
 
 
